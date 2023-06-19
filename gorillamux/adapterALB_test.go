@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/awslabs/aws-lambda-go-api-proxy/gorillamux"
 	"github.com/gorilla/mux"
+	"github.com/thomasgouveia/aws-lambda-go-api-proxy/gorillamux"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

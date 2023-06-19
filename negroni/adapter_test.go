@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
-	negroniadapter "github.com/awslabs/aws-lambda-go-api-proxy/negroni"
+	negroniadapter "github.com/thomasgouveia/aws-lambda-go-api-proxy/negroni"
 	"github.com/urfave/negroni"
 
 	. "github.com/onsi/ginkgo"

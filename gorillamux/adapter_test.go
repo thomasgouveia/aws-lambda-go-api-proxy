@@ -3,12 +3,12 @@ package gorillamux_test
 import (
 	"context"
 	"fmt"
-	"github.com/awslabs/aws-lambda-go-api-proxy/core"
+	"github.com/thomasgouveia/aws-lambda-go-api-proxy/core"
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/awslabs/aws-lambda-go-api-proxy/gorillamux"
 	"github.com/gorilla/mux"
+	"github.com/thomasgouveia/aws-lambda-go-api-proxy/gorillamux"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -105,4 +105,3 @@ func getProxyRequestV2(path string, method string) events.APIGatewayV2HTTPReques
 		RawPath: path,
 	}
 }
-

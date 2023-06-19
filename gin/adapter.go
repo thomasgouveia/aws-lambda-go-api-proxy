@@ -8,8 +8,8 @@ import (
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/awslabs/aws-lambda-go-api-proxy/core"
 	"github.com/gin-gonic/gin"
+	"github.com/thomasgouveia/aws-lambda-go-api-proxy/core"
 )
 
 // GinLambda makes it easy to send API Gateway proxy events to a Gin

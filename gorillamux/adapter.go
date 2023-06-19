@@ -5,14 +5,14 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/awslabs/aws-lambda-go-api-proxy/core"
 	"github.com/gorilla/mux"
+	"github.com/thomasgouveia/aws-lambda-go-api-proxy/core"
 )
 
 type GorillaMuxAdapter struct {
-	RequestAccessor core.RequestAccessor
+	RequestAccessor   core.RequestAccessor
 	RequestAccessorV2 core.RequestAccessorV2
-	router *mux.Router
+	router            *mux.Router
 }
 
 func New(router *mux.Router) *GorillaMuxAdapter {

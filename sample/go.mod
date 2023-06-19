@@ -1,10 +1,10 @@
-module github.com/awslabs/aws-lambda-go-api-proxy-sample
+module github.com/thomasgouveia/aws-lambda-go-api-proxy-sample
 
 go 1.12
 
 require (
 	github.com/aws/aws-lambda-go v1.37.0
-	github.com/awslabs/aws-lambda-go-api-proxy v0.14.0
+	github.com/thomasgouveia/aws-lambda-go-api-proxy v0.14.0
 	github.com/bytedance/sonic v1.8.2 // indirect
 	github.com/gin-gonic/gin v1.9.0
 	github.com/google/uuid v1.3.0

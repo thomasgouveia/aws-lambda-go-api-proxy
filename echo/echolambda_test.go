@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/aws/aws-lambda-go/events"
-	echoadapter "github.com/awslabs/aws-lambda-go-api-proxy/echo"
 	"github.com/labstack/echo/v4"
+	echoadapter "github.com/thomasgouveia/aws-lambda-go-api-proxy/echo"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -8,8 +8,8 @@ import (
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	ginadapter "github.com/awslabs/aws-lambda-go-api-proxy/gin"
 	"github.com/gin-gonic/gin"
+	ginadapter "github.com/thomasgouveia/aws-lambda-go-api-proxy/gin"
 )
 
 var ginLambda *ginadapter.GinLambda

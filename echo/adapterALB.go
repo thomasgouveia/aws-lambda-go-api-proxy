@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/awslabs/aws-lambda-go-api-proxy/core"
 	"github.com/labstack/echo/v4"
+	"github.com/thomasgouveia/aws-lambda-go-api-proxy/core"
 )
 
 // EchoLambdaALB makes it easy to send ALB proxy events to a echo.Echo.

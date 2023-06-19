@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/awslabs/aws-lambda-go-api-proxy/core"
 	"github.com/labstack/echo/v4"
+	"github.com/thomasgouveia/aws-lambda-go-api-proxy/core"
 )
 
 // EchoLambdaV2 makes it easy to send API Gateway proxy V2 events to a echo.Echo.

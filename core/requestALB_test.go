@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/awslabs/aws-lambda-go-api-proxy/core"
+	"github.com/thomasgouveia/aws-lambda-go-api-proxy/core"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambdacontext"

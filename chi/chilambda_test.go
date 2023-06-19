@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
-	chiadapter "github.com/awslabs/aws-lambda-go-api-proxy/chi"
 	"github.com/go-chi/chi/v5"
+	chiadapter "github.com/thomasgouveia/aws-lambda-go-api-proxy/chi"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
